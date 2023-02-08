@@ -254,7 +254,7 @@ body
   .pala
   {
     position: relative;
-    width: 175%;
+    width: 720px;
     height: 100vh;
     padding: 100px;
     display: flex;
@@ -417,7 +417,7 @@ body
 }
 .footer-clean {
     position: absolute;
-    top: 465vh;
+    top: 500vh;
     width: 175%;
     height: fit-content;
     padding:50px 0;
@@ -473,9 +473,4 @@ body
   .footer-clean ul a:hover {
     opacity:1;
   }
-}
-
-@media screen and (max-width: 900px) and (min-width: 600px)
-{
-  
 }
