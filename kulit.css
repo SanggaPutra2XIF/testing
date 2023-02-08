@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    background: #4b6303;
+}
+.pala
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pala::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, #4b6303, transparent);
+    z-index: 1000;
+}
+.pala img
+{
+    position: absolute;
+    top: 500;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+#titel
+{
+    position: absolute;
+    top: 50px;
+    color: #fff;
+    font-size: 3vw;
+    z-index: 9;
+}
+.petya
+{
+    position: relative;
+    padding: 100px;
+    background: #4b6303;
+}
+.petya img
+{
+    position: absolute;
+    width: auto;
+    height: 450px;
+    margin-right: 50%;
+}
+.petya h1
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 100px;
+    color: #ffffff;
+    font-size: 3vw;
+    z-index: 9;
+}
+.petya #wan
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-right: 100px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 1.5vw;
+    z-index: 9;
+}
+.petya #tu
+{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 50%;
+    margin-right: 100px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 1vw;
+    z-index: 9;
+}
+.where
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.where h1
+{
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    font-size: 3vw;
+    z-index: 9;
+}
+.operlay
+{
+    display: flex;
+    position: absolute;
+    top: 650px;
+}
+.TaLet
+{
+    position: relative;
+    Top: 550px;
+}
+.TaLet img
+{
+    position: absolute;
+    width: auto;
+    top: 30px;
+    height: 450px;
+    margin-left: 60%;
+}
+.TaLet h1
+{
+    position: absolute;
+    margin-top: 7%;
+    margin-right: 50%;
+    margin-left: 10%;
+    color: #ffffff;
+    font-size: 3vw;
+    z-index: 9;
+}
+.TaLet #deskrip
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-right: 50%;
+    margin-left: 10%;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 1.5vw;
+    z-index: 9;
+}
+.TaCar
+{
+    position: relative;
+    top: 155vh;
+    padding: 100px;
+}
+.TaCar img
+{
+    position: absolute;
+    height: 550px;
+    margin-right: 50%;
+}
+.TaCar h1
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 100px;
+    color: #ffffff;
+    font-size: 3vw;
+    z-index: 9;
+}
+.TaCar #kiardes
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    margin-right: 100px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-size: 1.5vw;
+    z-index: 9;
+}
+.footer-clean {
+    position: absolute;
+    top: 500vh;
+    width: 100%;
+    padding:50px 0;
+    background-color:#306844;
+    color:#ccc;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  .footer-clean .item.social > a:hover 
+  {
+    opacity:0.9;
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
+@media screen and (max-width: 600px)
+{
+  .pala
+  {
+    position: relative;
+    width: 175%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #titel
+{
+    position: absolute;
+    top: 25px;
+    padding: 50px;
+    color: #fff;
+    font-size: 10vw;
+    text-align: center;
+    z-index: 9;
+}
+.petya
+{
+    position: relative;
+    padding: 100px;
+    background: #4b6303;
+}
+.petya img
+{
+    position: absolute;
+    left: 10%;
+    height: 300px;
+}
+.petya h1
+{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 75%;
+    margin-right: -200px;
+    color: #ffffff;
+    font-size: 5vw;
+    z-index: 9;
+}
+.petya #wan
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 75%;
+    margin-right: -225px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 4vw;
+    z-index: 9;
+}
+.petya #tu
+{
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 75%;
+    margin-right: -225px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 3vw;
+    z-index: 9;
+}
+.where
+{
+    position: relative;
+    width: 500px;
+    height: 55vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.where h1
+{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 30px;
+    color: #fff;
+    font-size: 8vw;
+    z-index: 9;
+}
+.operlay
+{
+    display: flex;
+    position: absolute;
+    top: 550px;
+    margin-left: 45%;
+}
+.operlay img
+{
+    height: 400px; 
+}
+.TaLet
+{
+    position: relative;
+    padding: 100px;
+    background: #4b6303;
+}
+.TaLet img
+{
+    position: relative;
+    right:30%;
+    height: 400px;
+    align-items: center;
+}
+.TaLet h1
+{
+    position: absolute;
+    color: #ffffff;
+    top: 90%;
+    left: 35%;
+    font-size: 10vw;
+    white-space: nowrap;
+}
+.TaLet #deskrip
+{
+    position: absolute;
+    margin-top: 40%;
+    margin-right: -38%;
+    margin-left: 0%;
+    text-align: center;
+    left: 40%;
+    color: #ffffff;
+    line-height: 1.2;
+    font-size: 5vw;
+    z-index: 9;
+}
+.TaCar
+{
+    position: relative;
+    top: 155vh;
+    padding: 100px;
+}
+.TaCar img
+{
+    position: absolute;
+    height: 450px;
+    top: -50px;
+    margin-left: -100px;
+}
+.TaCar h1
+{
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 75%;
+    margin-right: -200px;
+    color: #ffffff;
+    font-size: 8vw;
+    z-index: 9;
+}
+.TaCar #kiardes
+{
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 75%;
+    margin-right: -250px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-size: 6vw;
+    z-index: 9;
+}
+.footer-clean {
+    position: absolute;
+    top: 465vh;
+    width: 175%;
+    height: fit-content;
+    padding:50px 0;
+    background-color:#306844;
+    color:#ccc;
+  }
+  .footer-clean #yea {
+    
+    display: flex;
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+
+  .footer-clean #tim {
+    
+    display: flex;
+    margin-top:0;
+    margin-left: 175px;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-clean #serpis {
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:-30%;
+  }
+  .footer-clean #anggota1 {
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-left: 175px;
+    margin-bottom:-15%;
+  }
+  .footer-clean #anggota2 {
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-left: 350px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+  
+}
